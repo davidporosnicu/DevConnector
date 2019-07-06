@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://davidporosnicu:davidporosnicu@cluster0-sng0h.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://davidporosnicu:davidporosnicu@cluster0-sng0h.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
