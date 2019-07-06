@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Create Schema
 const ProfileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -9,7 +10,7 @@ const ProfileSchema = new mongoose.Schema({
     type: String
   },
   website: {
-    type: string
+    type: String
   },
   location: {
     type: String
@@ -35,7 +36,7 @@ const ProfileSchema = new mongoose.Schema({
         required: true
       },
       company: {
-        tyoe: String,
+        type: String,
         required: true
       },
       location: {
